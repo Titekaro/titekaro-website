@@ -1,0 +1,8 @@
+@import-normalize;
+@import "src/assets/styles/_variables.scss";
+@import "../assets/styles/atoms/grid.scss";
+@import "../assets/styles/molecules/navbar.scss";
+
+body {
+	margin: 0;
+}
