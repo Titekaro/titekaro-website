@@ -10,6 +10,16 @@
       "withTest": true,
       "withStory": false,
       "withLazy": false
+    },
+    "class": {
+      "customTemplates": {
+        "component": "templates/TemplateName.tsx"
+      },
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
     }
   }
 }
