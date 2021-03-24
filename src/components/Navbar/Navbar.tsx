@@ -1,13 +1,14 @@
 import React from 'react';
-import styles from './Navbar.module.scss';
+import './Navbar.module.scss';
+import {Link} from 'react-router-dom';
 import logo from '../../logo.svg';
 
 const Navbar: React.FC = () => (
     <nav className="navbar" data-testid="Navbar">
         <div className="container">
-            <a className="navbar-brand" href="./">
+            <Link className="navbar-brand" to="./">
                 <img src={logo} alt="Logo"/>
-            </a>
+            </Link>
         </div>
     </nav>
 );
