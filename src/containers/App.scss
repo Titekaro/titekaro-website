@@ -1,8 +1,19 @@
 @import-normalize;
 @import "src/assets/styles/_variables.scss";
+
 @import "../assets/styles/atoms/grid.scss";
+@import "../assets/styles/atoms/types.scss";
+
 @import "../assets/styles/molecules/navbar.scss";
+
+@import "../assets/styles/organisms/header.scss";
 
 body {
 	margin: 0;
+	font-family: $font-family-base;
+	font-size: $font-size-base * 1.15;
+
+	@media (min-width: $bp-sm) {
+		font-size: $font-size-base;
+	}
 }
