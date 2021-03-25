@@ -1,0 +1,60 @@
+.btn {
+	display: inline-block;
+	margin: 30px 15px;
+	padding: $btn-padding-y $btn-padding-x;
+
+	font-weight: bold;
+	text-decoration: none;
+	border: 1px solid;
+
+	transition: all 0.5s;
+
+	> .icon {
+		display: inline-block;
+		position: absolute;
+		margin-left: -10px;
+		opacity: 0;
+		transition: all 0.5s;
+	}
+
+	&:hover,
+	&:focus {
+		padding-right: $btn-padding-x + $btn-padding-x /1.2 + $icon-size-base;
+		transition: 0.5s;
+
+		> .icon {
+			margin-left: $btn-padding-x /1.2;
+			opacity: 1;
+		}
+	}
+}
+
+.btn-primary {
+	color: $color-primary;
+	border-color: $color-primary;
+
+	&:hover,
+	&:focus {
+		color: $color-secondary;
+		background-color: $color-primary;
+
+		> .icon {
+			color: $color-secondary;
+		}
+	}
+}
+
+.btn-tertiary {
+	color: $color-tertiary;
+	border-color: $color-tertiary;
+
+	&:hover,
+	&:focus {
+		color: $color-secondary;
+		background-color: $color-tertiary;
+
+		> .icon {
+			color: $color-secondary;
+		}
+	}
+}
