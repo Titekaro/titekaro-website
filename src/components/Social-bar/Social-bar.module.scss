@@ -1,0 +1,9 @@
+@import "src/assets/styles/variables";
+
+.SocialBar {
+	margin-top: 15px;
+
+	@media (min-width: $bp-sm) {
+		margin: 0;
+	}
+}
