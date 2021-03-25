@@ -4,6 +4,18 @@
 	right: 0;
 }
 
+.navbar__content {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+    justify-content: space-between;
+
+	@media (min-width: $bp-sm) {
+		flex-direction: row;
+	}
+}
+
 .navbar-brand {
 	display: inline-block;
 	width: $logo-size;

@@ -1,0 +1,24 @@
+ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+.icon-list {
+	> .icon-list__item {
+		margin: 0 $layout-padding/1.5;
+
+		&:first-child {
+			margin-left: 0;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
