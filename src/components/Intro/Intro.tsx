@@ -1,6 +1,11 @@
 import React from 'react';
 import styles from './Intro.module.scss';
 import axios from 'axios';
+import {ReactSVG} from "react-svg";
+
+import iconDownload from "../../assets/images/icons/icon-download.svg";
+import iconArrowRight from "../../assets/images/icons/icon-arrow-right.svg";
+import resume from "../../assets/files/resume2021.pdf";
 
 interface IntroData {
     introData: { [key: string]: string }
@@ -38,7 +43,14 @@ class Intro extends React.Component {
         return (
             <div className={styles.Intro} data-testid="Intro">
                 {intro}
-                <a className="btn" href="./">Download CV</a>
+                {/*<a className="btn btn-tertiary" href="./">
+                    My work
+                    <ReactSVG className="icon" src={iconArrowRight} />
+                </a>*/}
+                <a className="btn btn-tertiary" href={resume} download>
+                    Download CV
+                    <ReactSVG className="icon" src={iconDownload} />
+                </a>
             </div>
         );
     }
