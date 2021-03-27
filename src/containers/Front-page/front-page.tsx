@@ -3,6 +3,7 @@ import './front-page.module.scss';
 
 import NavBar from "../../components/Navbar/Navbar";
 import Intro from "../../components/Intro/Intro";
+import Footer from "../../components/Footer/Footer";
 
 const frontPage: React.FC = () => {
     return (
@@ -18,6 +19,7 @@ const frontPage: React.FC = () => {
                 </header>
             </main>
             <footer>
+                <Footer/>
             </footer>
         </React.Fragment>
     )
