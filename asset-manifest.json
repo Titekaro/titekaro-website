@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/titekaro-website/static/css/main.1250cf5b.css",
-    "main.js": "/titekaro-website/static/js/main.52ad880b.js",
-    "static/js/787.beeca719.chunk.js": "/titekaro-website/static/js/787.beeca719.chunk.js",
-    "static/media/resume2021.pdf": "/titekaro-website/static/media/resume2021.dcc422f0d6c54506a963.pdf",
-    "static/media/logo.svg": "/titekaro-website/static/media/logo.d1722cc57759a8e4b39bee89f2e0854d.svg",
-    "static/media/icon-codepen.svg": "/titekaro-website/static/media/icon-codepen.223e8deea54a7b7578e0aaef8b3fde52.svg",
-    "static/media/icon-pinterest.svg": "/titekaro-website/static/media/icon-pinterest.7094f38f1b83c98996d773a5ab392d95.svg",
-    "index.html": "/titekaro-website/index.html",
-    "static/media/icon-github.svg": "/titekaro-website/static/media/icon-github.20ed3f445b6ca899810965fb63b378dc.svg",
-    "static/media/icon-linkedin.svg": "/titekaro-website/static/media/icon-linkedin.a2225bbc3dd31e37ef8eaa2a762c6656.svg",
-    "static/media/icon-twitter.svg": "/titekaro-website/static/media/icon-twitter.08fdbedf6bf2ab27b4430006b49a1cac.svg",
-    "static/media/icon-download.svg": "/titekaro-website/static/media/icon-download.bdbcce1a6c4f00fc411091e0ef2120af.svg",
-    "main.1250cf5b.css.map": "/titekaro-website/static/css/main.1250cf5b.css.map",
-    "main.52ad880b.js.map": "/titekaro-website/static/js/main.52ad880b.js.map",
-    "787.beeca719.chunk.js.map": "/titekaro-website/static/js/787.beeca719.chunk.js.map"
+    "main.css": "./static/css/main.1250cf5b.css",
+    "main.js": "./static/js/main.472a0a56.js",
+    "static/js/787.beeca719.chunk.js": "./static/js/787.beeca719.chunk.js",
+    "static/media/resume2021.pdf": "./static/media/resume2021.dcc422f0d6c54506a963.pdf",
+    "static/media/logo.svg": "./static/media/logo.d1722cc57759a8e4b39bee89f2e0854d.svg",
+    "static/media/icon-codepen.svg": "./static/media/icon-codepen.223e8deea54a7b7578e0aaef8b3fde52.svg",
+    "static/media/icon-pinterest.svg": "./static/media/icon-pinterest.7094f38f1b83c98996d773a5ab392d95.svg",
+    "static/media/icon-github.svg": "./static/media/icon-github.20ed3f445b6ca899810965fb63b378dc.svg",
+    "static/media/icon-linkedin.svg": "./static/media/icon-linkedin.a2225bbc3dd31e37ef8eaa2a762c6656.svg",
+    "index.html": "./index.html",
+    "static/media/icon-twitter.svg": "./static/media/icon-twitter.08fdbedf6bf2ab27b4430006b49a1cac.svg",
+    "static/media/icon-download.svg": "./static/media/icon-download.bdbcce1a6c4f00fc411091e0ef2120af.svg",
+    "main.1250cf5b.css.map": "./static/css/main.1250cf5b.css.map",
+    "main.472a0a56.js.map": "./static/js/main.472a0a56.js.map",
+    "787.beeca719.chunk.js.map": "./static/js/787.beeca719.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1250cf5b.css",
-    "static/js/main.52ad880b.js"
+    "static/js/main.472a0a56.js"
   ]
 }
