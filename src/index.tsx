@@ -4,12 +4,15 @@ import './index.css';
 import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import axios from "axios";
+import {HashRouter} from "react-router-dom";
 
 axios.defaults.baseURL = 'https://titekaro-website-default-rtdb.europe-west1.firebasedatabase.app';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <HashRouter basename={process.env.PUBLIC_URL}>
+        <App />
+      </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
