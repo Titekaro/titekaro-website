@@ -1,7 +1,8 @@
 {
   "name": "titekaro-website",
   "version": "0.1.0",
-  "private": false,
+  "licence": "",
+  "private": true,
   "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -25,6 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "serve-build": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
